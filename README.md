@@ -1,2 +1,2 @@
-# Proyecto-Final-Mickella-Mendoza-Cubillo
+# ProyectoFinalMickellaMendoza
 Este es el proyecto final del curso introductorio a HTML y CSS
