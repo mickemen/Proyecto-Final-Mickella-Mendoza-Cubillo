@@ -8,44 +8,59 @@
     <meta name="Keywords" content="HTML, CSS, Proyecto final">
     <meta name="author" content="Mickella Mendoza">
     <title>Proyecto Final Mickella Mendoza Cubillo</title>
+    <link rel="shortcut icon" href="../images/logo marca empresa circular redondo blanco.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilosproyecto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1  id="inicio">Fuerza de Rizadas</h1>
-        <img src="../images/logo marca empresa circular redondo blanco.png" width="350px">
-        <nav>
-            <ul type="square">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#Productosausar">Productos a usar</a></li>
-                <li><a href="#Cuidados">Cuidados</a></li>
-                <li><a href="#Quienessomos">Quienes somos</a></li>
-                <li><a href="#Contáctenos">Contáctenos</a></li>
-            </ul>
-        </nav>
+        <div class="contenedor-padre">
+            <h1  id="inicio">Fuerza de Rizadas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#Productosausar">Productos a usar</a></li>
+                    <li><a href="#Cuidados">Cuidados</a></li>
+                    <li><a href="#Quienessomos">Quienes somos</a></li>
+                    <li><a href="#Contáctenos">Contáctenos</a></li>
+                    <li><a href="#Redessociales">Redes Sociales</a></li>
+                </ul>
+            </nav>
         <p>Bienvenido a Fuerza de Rizadas, reciba un cordial saludo y acérquese para conocer a profundidad el cabello rizado junto sus respectivas necesidades, formas de definición y múltiples maneras de peinarlo</p>
-        <hr>
+        </div>
     </header>
     <main>
         <section>
-            <p>Para comenzar, se le muestra una imagen que ayudará a conocer su rizo, es primordial entender su tipo de onda, para proseguir a entender cómo se trata</p>
-            <img src="../images/tiposderizo.webp" width="800px">
+            <p class="parrafo-inicial">Para comenzar, se le muestra una imagen que ayudará a conocer su rizo, es primordial entender su tipo de onda, para proseguir a entender cómo se trata</p>
+            <img class="imagen1" src="../images/tiposderizo.webp">
         </section>
-        <section>
-            <h2>Técnicas de definición</h2>
-            <h4>Técnica Rizo a Rizo</h4>
-            <p>Esta técnica consiste en hacer el rizo uno a uno, con el pelo mojado casi goteando divida en secciones, al ser rizo a rizo será más tedioso por lo que las secciones deberán ser un poco pequeñas, coloque producto en crema o gel a unos centímetros de la raíz ponga su dedo índice y enrolle el mechón, puede hacer esto mismo pero tomando de referencia la mitad del mechón o hacer bucles llevando dos dedos desde el final y enrollando hacia arriba para luego soltar uno de los dedos y soltar de a poco el rizo, para finalizar haga mucho scrunch, si es de su agrado aplique gel para rizos para sellar la definición</p>
-            <h4>Técnica de Bowl</h4>
-            <p>Esta técnica es para mejorar la hidratación en el cabello y controlar el frizz, para ello después de lavar su cabello toma un bowl y agregale agua fría aplique, el acondicionador y cepille con la cabeza hacia adelante, tome el bowl con agua fría y sumerja el cabello, posteriormente sáquelo con cuidado y aprete los rizos en forma de scrunch, repita el proceso en todo el cabello y termine hasta que sienta su cabello hidratado y sus rizos bien formados, puede secar al aire libre o con difusor, dependerá de sus necesidades y posibilidades.</p>
-            <h4>Técnica de cepillo</h4>
-            <p>Hay múltiples formas de definir el cabello con cepillos, existen todo tipo de cepillos para ello, pero se le exteranará hacerlo con una forma más sencilla, para empezar con el cabello bien mojado aplique su crema o gel y con su cepillo para rizos, divida en secciones y pase el cepillo de arriba para abajo y cuando finalice el mechón haga scrunch varias veces, el cepillo dependerá del resultado que desee, hay cepillos de con cerdas más separads o más juntas, esto será decisión plenamente suya con lo que mejor se acomode a sus necesidades y comodidad.</p>
-            <h4>Conclusión</h4>
-            <p>Hay cientos de formas más, se le ectermaron las más sencillas a consideración, todas estas técnicas pueden acomodarse a su estilo de vida y dependerán de sus necesidades y posibilidades como el tiempo, no existe un patrón a seguir pero se le facilitan los pasos básicos, puede añadir pasos o reducirlos, lo mismo con sus productos, utilice los que se acomoden principalmente a su necesidad capilar, a continuación se le hablará de los diferentes tipos de cremas recomendadas para su tipo de onda.</p>
+
+        <section id="tecnicas">
+            <div class=>
+                <h2>Técnicas de Definición</h2>
+            </div>
+            <div class="contenedor-de-tecnicas contenedor-padre">
+                <div class="tecnicas">
+                    <h3>Técnica Rizo a Rizo</h3>
+                    <p><p>Esta técnica consiste en hacer el rizo uno a uno, con el pelo mojado casi goteando divida en secciones, al ser rizo a rizo será más tedioso por lo que las secciones deberán ser un poco pequeñas, coloque producto en crema o gel a unos centímetros de la raíz ponga su dedo índice y enrolle el mechón, puede hacer esto mismo pero tomando de referencia la mitad del mechón o hacer bucles llevando dos dedos desde el final y enrollando hacia arriba para luego soltar uno de los dedos y soltar de a poco el rizo, para finalizar haga mucho scrunch, si es de su agrado aplique gel para rizos para sellar la definición</p></p>
+                </div>
+                <div class="tecnicas">
+                    <h3>Técnica de Bowl</h3>
+                    <p>Esta técnica es para mejorar la hidratación en el cabello y controlar el frizz, para ello después de lavar su cabello toma un bowl y agregale agua fría aplique, el acondicionador y cepille con la cabeza hacia adelante, tome el bowl con agua fría y sumerja el cabello, posteriormente sáquelo con cuidado y aprete los rizos en forma de scrunch, repita el proceso en todo el cabello y termine hasta que sienta su cabello hidratado y sus rizos bien formados, puede secar al aire libre o con difusor, dependerá de sus necesidades y posibilidades.</p>
+                </div>
+                <div class="tecnicas">
+                    <h3>Técnica de cepillo</h3>
+                    <p>Hay múltiples formas de definir el cabello con cepillos, existen todo tipo de cepillos para ello, pero se le exteranará hacerlo con una forma más sencilla, para empezar con el cabello bien mojado aplique su crema o gel y con su cepillo para rizos, divida en secciones y pase el cepillo de arriba para abajo y cuando finalice el mechón haga scrunch varias veces, el cepillo dependerá del resultado que desee, hay cepillos de con cerdas más separads o más juntas, esto será decisión plenamente suya con lo que mejor se acomode a sus necesidades y comodidad.</p> 
+                </div>   
+            </div>
         </section>
-        <section>
+        <section class="seccion3">
             <h2 id="Productosausar">Productos a usar</h2>
             <h4>Cremas para Rizos</h4>
-            <p>Para cabello rizado tipo 2a a 3c se le recomienda usar cremas más ligeras como las que se presentan a continuación (estas pueden conseguirse principlamente en supermercados) se pretende recomendar cremas de fácil acceso y buenos resultados.</p>
-            <img src="../images/crema rizos.avif" width="200px">
+            <p class="parrafo2">Para cabello rizado tipo 2a a 3c se le recomienda usar cremas más ligeras como las que se presentan a continuación (estas pueden conseguirse principlamente en supermercados) se pretende recomendar cremas de fácil acceso y buenos resultados.</p>
+            <img src="../images/cremasedal.jpg" width="200px">
             <img src="../images/crema rizos2.jpg" width="200px">
             <img src="../images/crema rizos3.jpg" width="200px">
             <img src="../images/crema rizos4.jpg" width="200px">
@@ -56,62 +71,76 @@
             <img src="../images/crema afro3.jpg" width="200px">
             <img src="../images/crema afro4.jpg" width="200px">
         </section>
-        <div>
+        <div class="seccion4">
             <h2 id="Cuidados">Cuidados</h2>
             <p>Hay miles de cuidados para un cabello rizado, se le presentan cuidados simples y eficientes para comenzar a cuidar su cabello rizado y conservar este de la mejor manera posible.</p>
             <ul>
                 <li>Use shampoos sin sulfatos.</li>
                 <li>Cepille el cabello solo cuando está mojado.</li>
                 <li>Cuando aplique la crema u cualquier otro producto procure que el pelo esté bastante mojado.</li>
-                <li>Lave el cabello según su tipo de cabello, ya sea seco, graso o mixto.</li>
+                <li>Lave el cabello cada que su tipo de cabello lo requiera, ya sea seco, graso o mixto.</li>
                 <li>Para secar excesos de agua o hacer scrunch en el cabello hágalo con toallas de microfibra, para evitar frizz.</li>
             </ul>
         </div>
         <br>
-        <section>
+        <section class="seccion5">
             <h2 id="Quienessomos">Quiénes somos</h2>
-            <p>Fuerza Rizadas es una página que incentiva el cuidado capilar del cabello rizado sin someterlo a alisantes u procesos químicos que conlleven el uso excesivo de calor, debido a que esto puede dañar el cabello y quemarlo a gran escala.</p>
-            <p>Durante mucho tiempo se ha inculcado lo fácil que es estilizar un cabello liso, sin embargo, poco se habla de cómo estilizar el cabello rizado, razón por la cuál personas que saben poco al respecto tachan el cabello rizado de feo sin forma o informal, sin saber que hay formas de tratarle, muchas personas incluso optan por elegir procesos químicos antes que entender su cabello, para Fuerza Rizadas es una necesidad incentivar el conocimiento del cabello rizo, evitando conceptos como que este sea feo, díficil de tratar, malo o informal, se apoya la aceptación de este sin querer imponerla, pero sí entender el cabello, cuidarlo y colaborar a que esté sano.</p>
+            <div class="contenedor-mixto">
+                <img src="../images/logo marca empresa circular redondo blanco.png">
+                <p>Fuerza de Rizadas es una página que incentiva el cuidado capilar del cabello rizado sin someterlo a alisantes u procesos químicos que conlleven el uso excesivo de calor, debido a que esto puede dañar el cabello y quemarlo a gran escala. Durante mucho tiempo se ha inculcado lo fácil que es estilizar un cabello liso, sin embargo, poco se habla de cómo estilizar el cabello rizado, razón por la cuál personas que saben poco al respecto tachan el cabello rizado de feo sin forma o informal, sin saber que hay formas de tratarle, muchas personas incluso optan por elegir procesos químicos antes que entender su cabello, para Fuerza de Rizadas es una necesidad incentivar el conocimiento del cabello rizo, evitando conceptos como que este sea feo, díficil de tratar, malo o informal, se apoya la aceptación de este sin querer imponerla, pero sí entender el cabello, cuidarlo y colaborar a que esté sano.</p>
+            </div>          
+        </section>
+
+        <section class="seccion6">
+            <h2 id="Contáctenos">Contáctenos</h2>
+            <p>Si desea una asesoría personal o consultar dudas del cuidado o productos puede contactarnos llenando los siguientes datos:</p>   
+            <form action="">
+                <input type="text" id="inputNombre" class="estilosInput" name="inputNombre" placeholder="Nombre">
+                <br>
+                <input type="email" id="correo" class="estilosInput" placeholder="Email">
+                <br>
+                <input type="number" id="edad" class="estilosInput" placeholder="Edad">
+                <br>
+                <input list="TipodeRizo" id="text" placeholder="Tipo de Rizo">
+                <datalist id="TipodeRizo">
+                    <option value="1"></option>
+                    <option value="2a"></option>
+                    <option value="2b"></option>
+                    <option value="2c"></option>
+                    <option value="3a"></option>
+                    <option value="3b"></option>
+                    <option value="3c"></option>
+                    <option value="4a"></option>
+                    <option value="4b"></option>
+                    <option value="4c"></option>
+                </datalist>
+                <br>
+                <input type="text" id="Número Teléfonico" placeholder="Número telefónico">
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="20" rows="6" placeholder="Consulta"></textarea>
+                <br>
+                <input type="submit" value="Enviar" id="botonEnviar">
+                <input type="reset" value="Eliminar">
         </section>
     </main>
     <hr>
     <footer>
-        <h2 id="Contáctenos">Contáctenos</h2>
-        <p>Si desea una asesoría personal o consultar dudas del cuidado o productos puede contactarnos llenando los siguientes datos:</p>
-        <form action="./php/formulario.php" method="post" autocomplete="off">
-            <label for="inputNombre">Nombre:</label>
-        <input type="text" id="inputNombre" class="estilosInput" name="inputNombre">
-        <br>
-        <label for="">Correo</label>
-        <input type="email" id="correo" class="estilosInput">
-        <br>
-        <label for="">Edad</label>
-        <input type="number" id="edad" class="estilosInput">
-        <br>
-        <label for="text">Tipo de Rizo</label>
-        <input list="TipodeRizo" id="text">
-        <datalist id="TipodeRizo">
-            <option value="1"></option>
-            <option value="2a"></option>
-            <option value="2b"></option>
-            <option value="2c"></option>
-            <option value="3a"></option>
-            <option value="3b"></option>
-            <option value="3c"></option>
-            <option value="4a"></option>
-            <option value="4b"></option>
-            <option value="4c"></option>
-        </datalist>
-        <br>
-        <label for="">Número Teléfonico</label>
-        <input type="text" id="Número Teléfonico" placeholder="6189 0267">
-        <br>
-        <label for="">Mensaje:</label>
-        <textarea name="mensaje" id="mensaje" cols="20" rows="6"></textarea>
-        <br>
-        <input type="submit" value="Enviar" id="botonEnviar">
-        <input type="reset" value="Eliminar">
-        <p>Derechos Reservados &copy;Mickella Mendoza 2023</p>
+        <h2 id="Redessociales">Redes Sociales</h2>
+        <div class="redes">
+            <div class="social-media">
+                <a href="#">
+                    <img src="../images/facebook.png" alt="icono de facebook">
+                    <p>Micke Mendoza</p>
+                </a>
+            </div>
+            <div class="social-media">
+                <a href="#">
+                    <img src="../images/instagram.png" alt="icono de instagram">
+                    <p>_miicke</p>
+                </a>
+            </div>
+        </div>
+        <p>Todos los derechos reservados &copy; <strong>Mickella Mendoza</strong></p>
     </footer>
 </body>
 </html>

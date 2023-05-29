@@ -1,0 +1,243 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 3px;
+    padding: 3px;
+}
+
+h1{
+    color: #000000;
+   padding-bottom: 40px;
+    align-content: center;
+    margin-left: 500px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 50x;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 50x;
+}
+
+
+/*Estilos para el header*/
+
+header{
+    height: 170px;
+    width: 100%;
+    background-color: #EED0F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+
+header .maincontainer nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header .contenedor-padre nav ul{
+    list-style: none;
+    display: inline;
+}
+
+header .contenedor-padre nav ul li{
+    display: inline;
+}
+
+header .contenedor-padre nav ul li a{
+    color: #000000;
+    padding-left: 80px;
+    padding-top: 80px;
+
+}
+
+header .contenedor-padre p{
+    font-size: medium;
+    color: #000;
+    padding-left: 10px;
+    margin: 13px;
+    font-weight: bolder;
+}
+
+header .contenedor-padre nav ul li a:hover{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*Final estilos header*/
+
+/*Estilos al main*/
+main{
+    font-weight: bolder;
+    background-color: rgb(238, 208, 242)
+}
+
+main section .parrafo-inicial{
+   margin: 20px;
+   padding: 20px;
+   font-size: 20px;
+}
+
+main section .imagen1{
+    margin: 15px;
+    padding-left: 350px;
+    height: 350px;
+    width: 600px;
+}
+
+#tecnicas{
+    font-size: 18px;
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tecnicas .contenedor-de-tecnicas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 10px;
+    padding: 15px;
+}
+
+#tecnicas .contenedor-de-tecnicas .tecnicas{
+    width: 350px;
+    height: 300px;
+    padding: 33px 30px;
+}
+
+.tecnicas h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(121, 62, 92);
+}
+
+/*inicio de Productos a usar*/
+
+#Productosausar{
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 45px;
+    padding-left: 450px;
+}
+
+.seccion3 p{
+    margin: 20px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 5px solid rgb(0, 0, 0);
+    border-style: dotted;
+}
+
+.seccion3 img{
+    display: inline-flex;
+    margin: 20px;
+    padding: 40px;
+    border-bottom: double;
+}
+
+#Cuidados{
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 40px;
+    padding-left: 450px;
+}
+
+.seccion4 p{
+    margin: 20px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.seccion4 ul{
+    font-size: 20px;
+    display: inline-block;
+    align-content: center;
+    margin: 4px 50px;
+}
+
+.seccion4 ul li{
+  list-style:lower-latin;  
+  margin: 30px;
+}
+
+#Quienessomos{
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 40px;
+    padding-left: 520px;
+}
+
+.contenedor-mixto img{
+    margin-left: 30px;
+    padding-left: 470px;
+    
+    width: 300px;
+    height: 300px;
+}
+
+.seccion5 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    border: 3px solid black;
+    border-style: dotted;
+    margin: 20px;
+}
+
+#Contáctenos{
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 48px;
+    padding-left: 520px;
+}
+
+.seccion6 p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.seccion6 form input, .seccion6 form textarea{
+    font-size: 16px;
+    display: block;
+    padding: 2px;
+    margin: 10px;
+    width: 700px;
+    border-radius: 29px;
+    border: 2px solid rgb(57, 2, 68);
+    align-content: center;
+}
+
+footer{
+    background-color:  rgb(146, 193, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+footer p{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
